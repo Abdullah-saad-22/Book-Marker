@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Marker</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+
+    <div class="py-5 text-center">
+        <h1><..Book Marker..></h1>
+    </div>
+
+    <div class="container">
+
+       
+
+        <div class="row">
+            <div class="col-sm-12 py-5">
+
+                <div class="text-center">
+                    <h2>Bookmark your favorite sites</h2>
+                    <label for="" class="bold">Site Name</label>
+                    <input type="text" placeholder="Bookmark Name" class="form-control my-2 w-75 m-auto" id="SiteName">
+
+                    <label for="" class="bold">Site URL</label>
+                    <input type="text" placeholder="Website URL" class="form-control my-2 w-75 m-auto is-invalid"
+                        id="SiteURL">
+                    <div id="alertName" class="alert w-75 m-auto alert-danger py-3 d-none">
+                        <b>please use a valid URL...........</b>
+                    </div>
+
+                    <button class="btn btn-success my-2" onclick="add()">Submit</button>
+                </div>
+            </div>
+        </div>
+
+        <table class="table">
+            <tbody id="tableData" class="text-center">
+                <tr>
+                    
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
